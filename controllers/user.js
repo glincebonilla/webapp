@@ -6,7 +6,7 @@ var path = require('path');
 //Carago el modulo para encriptar
 var bcrypt = require('bcrypt-nodejs');
 //Importo el modelo
-var User = require('../models/User');
+var User = require('../models/user');
 var jwt = require('../services/jwt');
 
 
